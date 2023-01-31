@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="lib\Game.cpp" />
+    <ClCompile Include="lib\WindowsMain.cpp" />
+    <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="lib\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Engine.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\EventManager.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Event.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\AudioComponent.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Font.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\SceneManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\SceneNode.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\AsteroidNode.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\BulletNode.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ShipNode.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\SoundManager.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\Game.h" />
+    <ClInclude Include="lib\Helpers.h" />
+    <ClInclude Include="lib\lib.h" />
+    <ClInclude Include="lib\IRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Engine.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\EventManager.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Event.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\AudioComponent.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Font.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\SceneManager.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ISceneNode.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\SceneNode.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\AsteroidNode.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\BulletNode.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ShipNode.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\SoundManager.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\QuadTree.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{fa7cc659-3908-4317-bca1-1ebd6cebda79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{cd5b0d92-5ca0-498a-be61-455fb1dc38cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventManager">
+      <UniqueIdentifier>{9bce0c9b-0bb0-434e-ade8-4e1e3ae801db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{c81a6b59-293b-4788-8e40-0f32f9f439d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{66f79db4-644d-447c-9ee3-5b6f6f69f7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{3f6fd4a0-833f-4c23-bad7-73833aa8edce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{892e6de2-c7f6-4d5d-badd-5074cac47498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
