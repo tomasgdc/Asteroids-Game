@@ -3,6 +3,7 @@
 //FMod Includes
 #include "fmod/api/inc/fmod.h"
 #include <unordered_map>
+#include <string>
 
 class SoundManager
 {

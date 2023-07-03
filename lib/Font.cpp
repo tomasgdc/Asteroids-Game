@@ -119,7 +119,7 @@ void Font::RenderText(const std::string& text, float xcentre, float ycentre, flo
 
 	for (auto& c : text)
 	{
-		auto iter = m_mapGlyphTextures.find(c);
+		const auto iter = m_mapGlyphTextures.find(c);
 		if (iter != m_mapGlyphTextures.end())
 		{
 			void * pTexture = iter->second;
